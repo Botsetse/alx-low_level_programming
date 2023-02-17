@@ -15,9 +15,9 @@ int main(void)
 	float sizeFloat = 10.9f;
 
 	printf("Size of a char: %lu byte(s)", (unsigned long)sizeof(sizeChar));
-	printf("\nsize of an int: %lu byte(s)", (unsigned long)sizeof(sizeInt));
-	printf("\nsize of a long int: %lu byte(s)", (unsigned long)sizeof(sizeLongint));
-	printf("\nsize of a long long int: %lu byte(s)", (unsigned long)sizeof(sizeLonglint));
-	printf("\nsize of a float: %lu byte(s)\n", sizeof(sizeFloat));
+	printf("\nSize of an int: %lu byte(s)", (unsigned long)sizeof(sizeInt));
+	printf("\nSize of a long int: %lu byte(s)", (unsigned long)sizeof(sizeLongint));
+	printf("\nSize of a long long int: %lu byte(s)", (unsigned long)sizeof(sizeLonglint));
+	printf("\nSize of a float: %lu byte(s)\n", sizeof(sizeFloat));
 	return (0);
 }
