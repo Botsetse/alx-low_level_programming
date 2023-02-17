@@ -8,15 +8,15 @@
 
 int main(void)
 {
-	char sizeChar = "size"
-	int sizeInt = 100
-	long int sizeLongint = 100
-	long long int sizeLonglint = 100
-	float sizeFloat = 10.9f
+	char sizeChar = 's';
+	int sizeInt = 100;
+	long int sizeLongint = 100;
+	long long int sizeLonglint = 100;
+	float sizeFloat = 10.9f;
 
-	printf("Size of a char:%c byte(s)", sizeChar);
-	printf("size of an int: %d byte(s)", sizeInt);
-	printf("size of a long int: %ld byte(s)", sizeLongint);
-	printf("size of a long long int: %lld byte(s)", sizeLonglint);
-	printf("size of a float: %f byte(s)", sizeFloat);
+	printf("Size of a char:%lu byte(s)", (unsigned long)sizeof(sizeChar));
+	printf("\nsize of an int: %lu byte(s)", (unsigned long)sizeof(sizeInt));
+	printf("\nsize of a long int: %lu byte(s)", (unsigned long)sizeof(sizeLongint));
+	printf("\nsize of a long long int: %lu byte(s)", (unsigned long)sizeof(sizeLonglint));
+	printf("\nsize of a float: %lu byte(s)", sizeof(sizeFloat));
 }
